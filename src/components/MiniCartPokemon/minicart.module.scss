@@ -1,0 +1,76 @@
+@import '../../scss/types.scss';
+
+.pokemonItem {
+  color: #fff;
+  background: rgb(48, 64, 121);
+  border-radius: 10px;
+  border: 2px solid rgb(132, 155, 245);
+  width: 250px;
+  margin: 10px 0;
+}
+
+.pokemonItem:hover {
+  box-shadow: 0 0 30px rgb(40, 236, 37);
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link:hover {
+  color: rgb(246, 238, 81);
+}
+
+.imageBlock {
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  background: url(../../img/pokeball21.png) no-repeat center center, 
+    linear-gradient( rgba(48, 64, 121, 0.5), rgba(107, 133, 237, 0.9), rgba(48, 64, 121, 0.5)) ;
+  background-size: 90% ;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 246px;
+}
+
+.imageBlock img {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+}
+
+.infoBlock {
+  background: rgb(11, 21, 62);
+  padding: 10px;
+  margin-bottom: 0;
+  border-radius: 0 0 10px 10px;
+  font-weight: bold;
+}
+
+.infoBlock h3 {
+  color: rgb(246, 238, 81);
+  height: 50px;
+}
+
+.infoBlock p {
+  margin: 0;
+}
+
+.types {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.types p {
+  margin: 0 2px;
+}
+
+.typeItem {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  width: 60px;
+  padding: 2px;
+  border-radius: 8px;
+}
